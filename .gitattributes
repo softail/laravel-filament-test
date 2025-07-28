@@ -8,6 +8,3 @@
 
 CHANGELOG.md export-ignore
 README.md export-ignore
-
-* -text
-*.* filter=lfs diff=lfs merge=lfs -text
