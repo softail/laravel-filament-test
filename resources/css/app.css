@@ -165,3 +165,31 @@
         @apply bg-background text-foreground;
     }
 }
+
+@theme {
+    --color-primary-50: #FFF4F2;
+    --color-primary-100: #FFE6E0;
+    --color-primary-200: #FFD1C7;
+    --color-primary-300: #FFB3A3;
+    --color-primary-400: #FF8A6B;
+    --color-primary-500: #FF5733;
+    --color-primary-600: #E63E1A;
+    --color-primary-700: #C02D0F;
+    --color-primary-800: #9F2610;
+    --color-primary-900: #832514;
+
+    --color-secondary-50: #F0FBFF;
+    --color-secondary-100: #E0F6FF;
+    --color-secondary-200: #BAEDFF;
+    --color-secondary-300: #7DE0FF;
+    --color-secondary-400: #38CFFF;
+    --color-secondary-500: #33C7FF;
+    --color-secondary-600: #0EA5DB;
+    --color-secondary-700: #0F84B0;
+    --color-secondary-800: #136F91;
+    --color-secondary-900: #155E78;
+
+    --color-brand-100: #F0F8FF;
+    --color-brand-500: #4682B4;
+    --color-brand-900: #191970;
+}
