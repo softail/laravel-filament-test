@@ -14,6 +14,11 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+    {
+        title: 'Characteristics',
+        href: route('characteristics.index'),
+        icon: LayoutGrid,
+    },
 ];
 
 const footerNavItems: NavItem[] = [

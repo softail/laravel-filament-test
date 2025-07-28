@@ -35,4 +35,35 @@ export interface User {
     updated_at: string;
 }
 
+export interface Characteristic {
+    id: number;
+    name: string;
+    email: string;
+    meta_data: object;
+    category_id: number;
+    category_name: string;
+    created_at: string;
+    updated_at: string;
+}
+
+export interface CharacteristicCategory {
+    id: number;
+    name: string;
+    email: string;
+    meta_data: object;
+    characteristic_category_id: number;
+    created_at: string;
+}
+
+export interface Pagination {
+    current_page: number;
+    from: number;
+    last_page: number;
+    links: Array<{
+        label: string;
+        url: string | null;
+        active: boolean;
+    }>;
+}
+
 export type BreadcrumbItemType = BreadcrumbItem;
